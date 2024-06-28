@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-hex: #171717;
+  --background-hex: #D3DFE8;
+}
+
+body {
+  color: var(--foreground-hex);
+  background: var(--background-hex);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
