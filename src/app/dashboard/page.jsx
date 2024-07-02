@@ -2,7 +2,7 @@ import Navbar from './components/Navbar';
 
 export default function Dashboard() {
   return (
-    <main className="flex min-h-screen flex-row items-center justify-between">
+    <main className="flex min-h-screen flex-row items-center justify-between font-poppins">
       <Navbar />
       <div className="grid min-h-screen w-full grid-cols-12 grid-rows-12 p-12 gap-2">
         <div className="bg-[#EBF4F4] col-span-12">
