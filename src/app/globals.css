@@ -12,6 +12,15 @@ body {
   background: var(--background-hex);
 }
 
+.login-title::before{
+  content: "";
+  display: block;
+  width: 90px;
+  height: 4px;
+  margin-bottom: 1rem;
+  background-color: #38509F;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
